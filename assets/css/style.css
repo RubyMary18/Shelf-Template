@@ -175,7 +175,7 @@ sub {
   clear: both;
 }
 .cf {
-  *zoom: 1;
+  zoom: 1;
 }
 
 /*for all*/
@@ -216,21 +216,34 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1350px;
-  width: 81%;
+  width: 86%;
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
-header img {
-  max-height: 533.6px;
+.wrapper {
+  max-width: 81%;
+}
+
+header .wrapper {
+  background: url(../Images/header-01.jpg) no-repeat;
+  background-size: cover;
 }
 
 h1 {
-  font-size: 25px;
   font-family: sans-serif;
   text-transform: uppercase;
-  
+  font-size: 48px;
+}
+
+h1 a {
+  color: #fff;
+}
+
+.header-top {
+  padding: 75px 0;
+  margin-left: 88.8px;
 }
 /*=================================
   Header styling ends here
