@@ -292,6 +292,20 @@ header ul li a {
   main styling starts here
 =================================*/
 
+section {
+  padding: 87px 54px 76px 54px;
+}
+
+h2 {
+  font-size: 34px;
+  margin-bottom: 24px;
+}
+
+.bookstore-para {
+  font-size: 21px;
+  line-height: 33px;
+  margin-bottom: 66px;
+}
 /*=================================
   main styling ends here
 =================================*/
