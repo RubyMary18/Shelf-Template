@@ -252,7 +252,7 @@ h1 a {
   height: 4px;
   display: block;
   margin: 4px auto;
-  background: #000;
+  background: #555;
 }
 
 header .wrapper {
@@ -334,6 +334,14 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+.page-list .active {
+  background: #096599;
+}
+
+.active a {
+  color: #fff;
 }
 /*bookstore section end*/
 
