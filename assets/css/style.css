@@ -296,6 +296,7 @@ section {
   padding: 87px 54px 76px 54px;
 }
 
+/*bookstore section start*/
 h2 {
   font-size: 34px;
   margin-bottom: 24px;
@@ -306,6 +307,36 @@ h2 {
   line-height: 33px;
   margin-bottom: 66px;
 }
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery li {
+  margin-bottom: 60px;
+}
+
+.gallery figcaption {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 25px;
+}
+
+.page-list li {
+  background: #ededed;
+  padding: 18px 2%;
+}
+
+.page-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+/*bookstore section end*/
+
 /*=================================
   main styling ends here
 =================================*/
