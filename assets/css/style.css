@@ -343,6 +343,12 @@ h2 {
 .active a {
   color: #fff;
 }
+
+.page-list li:hover {
+  background: #096599;
+  color: #fff;
+  cursor: pointer;
+}
 /*bookstore section end*/
 
 /*=================================
