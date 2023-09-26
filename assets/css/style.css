@@ -289,6 +289,10 @@ header ul li a {
 .container {
   background-color: #343434;
 }
+
+.nav-list li:hover a {
+  color: #1f64b7;
+}
 /*=================================
   Header styling ends here
 =================================*/
@@ -404,6 +408,11 @@ h3 {
 .need-help p,
 .need-help a {
   color: #f5f5f5;
+}
+
+.need-help a:hover {
+  background-color: #fff;
+  color: #096599;
 }
 
 /*blue-card section end*/
