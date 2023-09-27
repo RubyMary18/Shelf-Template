@@ -364,6 +364,10 @@ h2 {
   cursor: pointer;
 }
 
+.tab {
+  display: none;
+}
+
 .show {
   display: flex;
 }
