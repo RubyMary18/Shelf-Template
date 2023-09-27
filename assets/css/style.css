@@ -350,11 +350,12 @@ h2 {
   margin-top: 30px;
 }
 
-.page-list .active {
+.li .active {
   background: #096599;
 }
 
-.active a {
+li.active a,
+.page-list li:hover a {
   color: #fff;
 }
 
