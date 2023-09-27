@@ -350,11 +350,12 @@ h2 {
   margin-top: 30px;
 }
 
-.page-list .active {
+li.active {
   background: #096599;
+  color: #fff;
 }
 
-.active a {
+li.active a {
   color: #fff;
 }
 
@@ -362,6 +363,10 @@ h2 {
   background: #096599;
   color: #fff;
   cursor: pointer;
+}
+
+.page-list li:hover a {
+  color: #fff;
 }
 
 .tab {
