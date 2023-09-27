@@ -322,7 +322,7 @@ h2 {
 }
 
 .gallery li {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -362,6 +362,14 @@ h2 {
   background: #096599;
   color: #fff;
   cursor: pointer;
+}
+
+.show {
+  display: flex;
+}
+
+.hide {
+  display: none;
 }
 /*bookstore section end*/
 
