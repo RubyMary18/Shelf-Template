@@ -459,7 +459,6 @@ footer p {
 =================================*/
 
 /*media query starts*/
-/*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
   header ul li a {
@@ -517,16 +516,23 @@ footer p {
     width: 90%;
   }
 
-  .blue-card {
-    padding: 40px 20px 40px 20px;
-  }
-
   .need-help p {
     font-size: 16px;
     line-height: 2;
+    text-align: justify;
+  }
+
+  .blue-card {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .meet-up {
+    text-align: center;
   }
 }
-/*media queries at 768 starts here*/
+/*media queries at 768 ends here*/
 
 /*media queries at 540 starts here*/
 @media only screen and (max-width: 540px) {
@@ -541,6 +547,80 @@ footer p {
     flex-direction: column;
     row-gap: 15px;
     width: 45%;
+  }
+
+  .bookstore-para {
+    font-size: 17px;
+    text-align: justify;
+  }
+
+  .header-top {
+    margin-left: 25px;
+  }
+
+  header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .header-top {
+    padding: 20px 0 256px 0;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  .bookstore-para,
+  .gallery div {
+    margin-bottom: 40px;
+  }
+
+  .gallery div {
+    flex-basis: 100%;
+  }
+
+  .gallery figcaption {
+    font-size: 17px;
+    padding-top: 20px;
+  }
+
+  .page-list li {
+    padding: 12px 5%;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .wrapper {
+    max-width: 100%;
+  }
+
+  .bookstore {
+    padding: 60px 40px 60px 40px;
+  }
+
+  .gallery div figure {
+    width: 90%;
+  }
+
+  .blue-card {
+    padding: 30px;
+  }
+
+  main .wrapper {
+    padding-bottom: 50px;
+  }
+
+  .need-help a {
+    padding: 12px 25px;
+  }
+
+  footer p {
+    font-size: 13px;
   }
 }
 /*media queries at 540 ends here*/
