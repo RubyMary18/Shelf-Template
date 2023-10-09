@@ -3,10 +3,10 @@ const pageNumbers = document.querySelectorAll('.page-list li');
 
 const hamburger = document.querySelector('.hamburger');
 const navList = document.querySelector('.nav-list');
-console.log(navList);
 
 hamburger.addEventListener('click',function(){
-    navList.style.display = 'flex';
+    // navList.style.display = 'flex';
+    navList.classList.toggle('dis');
 })
 
 document.querySelector('.tab').classList.add('show');
