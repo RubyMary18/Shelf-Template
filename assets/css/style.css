@@ -373,7 +373,7 @@ li.active a,
 }
 
 .show,
-.dis {
+.nav-list.dis {
   display: flex;
 }
 
