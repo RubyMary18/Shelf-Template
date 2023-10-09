@@ -5,8 +5,7 @@ const hamburger = document.querySelector('.hamburger');
 const navList = document.querySelector('.nav-list');
 
 hamburger.addEventListener('click',function(){
-    // navList.style.display = 'flex';
-    navList.classList.toggle('dis');
+    navList.classList.toggle("dis");
 })
 
 document.querySelector('.tab').classList.add('show');
